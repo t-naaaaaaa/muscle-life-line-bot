@@ -191,7 +191,67 @@ const getRandomMessageByCategory = (category) => {
 };
 
 const getMessageByKeyword = (keyword) => {
-  if (keyword.includes("ギャンブル") || keyword.includes("スロット")) {
+  if (
+    keyword.includes("ギャンブル") ||
+    keyword.includes("スロット") ||
+    keyword.includes("競馬") ||
+    keyword.includes("パチンコ") ||
+    keyword.includes("競艇") ||
+    keyword.includes("パチスロ") ||
+    keyword.includes("オートレース") ||
+    keyword.includes("競輪") ||
+    keyword.includes("宝くじ") ||
+    keyword.includes("ロト") ||
+    keyword.includes("TOTO") ||
+    keyword.includes("BIG") ||
+    keyword.includes("カジノ") ||
+    keyword.includes("IR") ||
+    keyword.includes("ブラックジャック") ||
+    keyword.includes("ポーカー") ||
+    keyword.includes("バカラ") ||
+    keyword.includes("ルーレット") ||
+    keyword.includes("闇カジノ") ||
+    keyword.includes("ジャグラー") ||
+    keyword.includes("北斗の拳") ||
+    keyword.includes("花の慶次") ||
+    keyword.includes("牙狼") ||
+    keyword.includes("シンフォギア") ||
+    keyword.includes("大当たり") ||
+    keyword.includes("確変") ||
+    keyword.includes("天井") ||
+    keyword.includes("三連単") ||
+    keyword.includes("三連複") ||
+    keyword.includes("馬券") ||
+    keyword.includes("WIN5") ||
+    keyword.includes("単勝") ||
+    keyword.includes("複勝") ||
+    keyword.includes("ワイド") ||
+    keyword.includes("馬連") ||
+    keyword.includes("馬単") ||
+    keyword.includes("フライング") ||
+    keyword.includes("イン逃げ") ||
+    keyword.includes("スタート展示") ||
+    keyword.includes("モーター") ||
+    keyword.includes("出走表") ||
+    keyword.includes("着順") ||
+    keyword.includes("車券") ||
+    keyword.includes("脚質") ||
+    keyword.includes("ライン") ||
+    keyword.includes("ゴール前") ||
+    keyword.includes("落車") ||
+    keyword.includes("予想") ||
+    keyword.includes("オンラインカジノ") ||
+    keyword.includes("チップ") ||
+    keyword.includes("持ち玉") ||
+    keyword.includes("軍資金") ||
+    keyword.includes("ギャンブル依存症") ||
+    keyword.includes("爆勝ち") ||
+    keyword.includes("全ツッパ") ||
+    keyword.includes("ツモ") ||
+    keyword.includes("ボーダー") ||
+    keyword.includes("レバーオン")
+
+  ) {
     return "期待値計算してますか？数学的思考が大事です。筋トレで脳を鍛えれば計算力も上がります！";
   }
   const filteredMessages = botMessages.filter((msg) =>
